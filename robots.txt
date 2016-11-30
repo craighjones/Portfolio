@@ -1,0 +1,7 @@
+User-agent: *
+User-agent: *
+Disallow: 	http://www.craighjones.co.uk/tmp/
+Disallow: 	http://www.craighjones.co.uk/blog/
+Disallow: 	http://www.craighjones.co.uk/portfolio/
+Disallow: 	http://www.craighjones.co.uk/brands/
+Sitemap: 	http://www.craighjones.co.uk/sitemap.xml
