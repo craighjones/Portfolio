@@ -23,7 +23,8 @@ p a { color: #131313; text-decoration: none; border-bottom: 1px solid #c2c2c2; }
 p a:hover { color: #131313; text-decoration: none; border-bottom: 1px solid #131313; }
 em { font-style: italic; }
 strong { font-weight: 700; }
-small { font-family: "Source Sans Pro"; font-size: 14px; font-style: normal; font-weight: 600; line-height: 21px; letter-spacing: 60px; }
+small { font-family: "Source Sans Pro"; font-size: 14px; font-style: normal; font-weight: 600; line-height: 21px;}
+figcaption { color: #666; font-family: "Source Sans Pro"; font-size: 14px; font-style: normal; font-weight: 300; line-height: 18px; letter-spacing: 0.5px;}
 img { max-width: 100%; display: block; border: 0 none; padding-bottom: 13px }
 img.lazy { display: none; }
 
