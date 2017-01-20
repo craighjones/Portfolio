@@ -1,14 +1,15 @@
+/*Serif*/
+
 @font-face{
     font-family: 'Source Serif Pro';
     font-weight: 300;
     font-style: normal;
     font-stretch: normal;
-    src: url('../fonts/SourceSerifPro-Light.eot') format('embedded-opentype'),
-         url('../fonts/SourceSerifPro-Light.otf.woff') format('woff'),
-         url('../fonts/SourceSerifPro-Light.otf.woff2') format('woff2'),
-         url('../fonts/SourceSerifPro-Light.otf') format('opentype'),
-         url('../fonts/SourceSerifPro-Light.ttf') format('truetype')
-         url('../fonts/SourceSerifPro-Light.svg#Source Serif Pro') format('svg'),;
+    src: url('../fonts/source-serif-pro/EOT/SourceSerifPro-Light.eot') format('embedded-opentype'),
+         url('../fonts/source-serif-pro/WOFF/OTF/SourceSerifPro-Light.otf.woff') format('woff'),
+         url('../fonts/source-serif-pro/WOFF2/OTF/SourceSerifPro-Light.otf.woff2') format('woff2'),
+         url('../fonts/source-serif-pro/OTF/SourceSerifPro-Light.otf') format('opentype'),
+         url('../fonts/source-serif-pro/TTF/SourceSerifPro-Light.ttf') format('truetype');
 }
 
 @font-face{
@@ -16,37 +17,35 @@
     font-weight: 600;
     font-style: normal;
     font-stretch: normal;
-    src: url('../fonts/SourceSerifPro-Semibold.eot') format('embedded-opentype'),
-         url('../fonts/SourceSerifPro-Semibold.otf.woff') format('woff'),
-         url('../fonts/SourceSerifPro-Semibold.otf.woff2') format('woff2'),
-         url('../fonts/SourceSerifPro-Semibold.otf') format('opentype'),
-         url('../fonts/SourceSerifPro-Semibold.ttf') format('truetype')
-         url('../fonts/SourceSerifPro-Semibold.svg#Source Serif Pro') format('svg'),;
+    src: url('../fonts/source-serif-pro/EOT/SourceSerifPro-Semibold.eot') format('embedded-opentype'),
+         url('../fonts/source-serif-pro/WOFF/OTF/SourceSerifPro-Semibold.otf.woff') format('woff'),
+         url('../fonts/source-serif-pro/WOFF2/OTF/SourceSerifPro-Semibold.otf.woff2') format('woff2'),
+         url('../fonts/source-serif-pro/OTF/SourceSerifPro-Semibold.otf') format('opentype'),
+         url('../fonts/source-serif-pro/TTF/SourceSerifPro-Semibold.ttf') format('truetype');
 }
+
+/*Sans Serif*/
 
 @font-face{
     font-family: 'Source Sans Pro';
     font-weight: 300;
     font-style: normal;
     font-stretch: normal;
-    src: url('../fonts/SourceSansPro-Light.eot') format('embedded-opentype'),
-         url('../fonts/SourceSansPro-Light.ttf.woff2') format('woff2'),
-         url('../fonts/SourceSansPro-Light.otf.woff') format('woff'),
-         url('../fonts/SourceSansPro-Light.otf') format('opentype'),
-         url('../fonts/SourceSansPro-Light.ttf') format('truetype')
-         url('../fonts/SourceSansPro-Light.svg#Source Sans Pro') format('svg'),;
+    src: url('../fonts/source-sans-pro/EOT/SourceSansPro-Light.eot') format('embedded-opentype'),
+         url('../fonts/source-sans-pro/WOFF2/TTF/SourceSansPro-Light.ttf.woff2') format('woff2'),
+         url('../fonts/source-sans-pro/WOFF/OTF/SourceSansPro-Light.otf.woff') format('woff'),
+         url('../fonts/source-sans-pro/OTF/SourceSansPro-Light.otf') format('opentype'),
+         url('../fonts/source-sans-pro/TTF/SourceSansPro-Light.ttf') format('truetype');
 }
-
 
 @font-face{
     font-family: 'Source Sans Pro';
     font-weight: 600;
     font-style: normal;
     font-stretch: normal;
-    src: url('../fonts/SourceSansPro-Semibold.eot') format('embedded-opentype'),
-         url('../fonts/SourceSansPro-Semibold.ttf.woff2') format('woff2'),
-         url('../fonts/SourceSansPro-Semibold.otf.woff') format('woff'),
-         url('../fonts/SourceSansPro-Semibold.otf') format('opentype'),
-         url('../fonts/SourceSansPro-Semibold.ttf') format('truetype')
-         url('../fonts/SourceSansPro-Semibold.svg#Source Sans Pro') format('svg'),;
+    src: url('../fonts/source-sans-pro/EOT/SourceSansPro-Semibold.eot') format('embedded-opentype'),
+         url('../fonts/source-sans-pro/WOFF2/TTF/SourceSansPro-Semibold.ttf.woff2') format('woff2'),
+         url('../fonts/source-sans-pro/WOFF/OTF/SourceSansPro-Semibold.otf.woff') format('woff'),
+         url('../fonts/source-sans-pro/OTF/SourceSansPro-Semibold.otf') format('opentype'),
+         url('../fonts/source-sans-pro/TTF/SourceSansPro-Semibold.ttf') format('truetype');
 }
