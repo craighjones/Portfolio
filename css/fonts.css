@@ -9,7 +9,8 @@
          url('../fonts/WOFF/OTF/SourceSerifPro-ExtraLight.otf.woff') format('woff'),
          url('../fonts/WOFF2/OTF/SourceSerifPro-ExtraLight.otf.woff2') format('woff2'),
          url('../fonts/OTF/SourceSerifPro-ExtraLight.otf') format('opentype'),
-         url('../fonts/TTF/SourceSerifPro-ExtraLight.ttf') format('truetype');
+         url('../fonts/TTF/SourceSerifPro-ExtraLight.ttf') format('truetype')
+         url('../fonts/OTF/SourceSerifPro-ExtraLight.svg') format('svg'),;
 }
 
 @font-face{
@@ -21,7 +22,8 @@
          url('../fonts/WOFF/OTF/SourceSerifPro-Light.otf.woff') format('woff'),
          url('../fonts/WOFF2/OTF/SourceSerifPro-Light.otf.woff2') format('woff2'),
          url('../fonts/OTF/SourceSerifPro-Light.otf') format('opentype'),
-         url('../fonts/TTF/SourceSerifPro-Light.ttf') format('truetype');
+         url('../fonts/TTF/SourceSerifPro-Light.ttf') format('truetype')
+         url('../fonts/OTF/SourceSerifPro-Light.svg') format('svg'),;
 }
 
 @font-face{
@@ -45,7 +47,8 @@
          url('../fonts/WOFF/OTF/SourceSerifPro-Semibold.otf.woff') format('woff'),
          url('../fonts/WOFF2/OTF/SourceSerifPro-Semibold.otf.woff2') format('woff2'),
          url('../fonts/OTF/SourceSerifPro-Semibold.otf') format('opentype'),
-         url('../fonts/TTF/SourceSerifPro-Semibold.ttf') format('truetype');
+         url('../fonts/TTF/SourceSerifPro-Semibold.ttf') format('truetype')
+         url('../fonts/OTF/SourceSerifPro-Semibold.svg') format('svg'),;
 }
 
 @font-face{
