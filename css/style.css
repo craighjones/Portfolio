@@ -26,7 +26,7 @@
 	#home .inner .link .lazy-line img { display: none; }
 
 	/* ABOUT */
-	#about { padding: 26px 0 78px 0; overflow: hidden; position: relative; }
+	#about { padding: 26px 0 52px 0; overflow: hidden; position: relative; }
 	#about p { max-width: 544px; }
 	#about h1 {}
 	#about h2 {}
