@@ -8,23 +8,23 @@ blockquote:before, blockquote:after, q:before, q:after { content: ''; content: n
 table { border-collapse: collapse; border-spacing: 0; }
 
 /* #Basic Styles */
-body { background: #fff; color: #131313; font-family: "Source Serif Pro", Georgia, serif; font-size: 18px; font-style: normal; font-weight: 300; line-height: 26px;}
+body { background: #fff; color: #131313; font-family: 'Source Serif Pro', Georgia, serif; font-size: 18px; font-style: normal; font-weight: 300; line-height: 26px;}
 
 /* #Typography */
 h1, h2, h3, h4, h5, h6 { font-weight: normal; }
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
-h1 { font-family: "Source Serif Pro"; font-size: 36px; font-style: normal; font-weight: 600; line-height: 52px; margin-bottom: 0px; max-width: 736px;}
-h2 { font-family: "Source Serif Pro"; font-size: 36px; font-style: normal; font-weight: 300; line-height: 52px; margin-bottom: 26px; max-width: 736px;}
-h3 { font-family: "Source Serif Pro"; font-size: 18px; font-style: normal; font-weight: 600; line-height: 26px; margin-bottom: 0px; max-width: 736px;}
-h4 { font-family: "Source Serif Pro"; font-size: 18px; font-style: normal; font-weight: 600; line-height: 26px; margin-bottom: 0px;}
-h5 { font-family: "Source Serif Pro"; font-size: 18px; font-style: normal; font-weight: 600; margin-bottom: 26px;}
+h1 { font-family: 'Source Serif Pro'; font-size: 36px; font-style: normal; font-weight: 600; line-height: 52px; margin-bottom: 0px; max-width: 736px;}
+h2 { font-family: 'Source Serif Pro'; font-size: 36px; font-style: normal; font-weight: 300; line-height: 52px; margin-bottom: 26px; max-width: 736px;}
+h3 { font-family: 'Source Serif Pro'; font-size: 18px; font-style: normal; font-weight: 600; line-height: 26px; margin-bottom: 0px; max-width: 736px;}
+h4 { font-family: 'Source Serif Pro'; font-size: 18px; font-style: normal; font-weight: 600; line-height: 26px; margin-bottom: 0px;}
+h5 { font-family: 'Source Serif Pro'; font-size: 18px; font-style: normal; font-weight: 600; margin-bottom: 26px;}
 p { margin: 0 0 26px 0; }
 p a { color: #131313; text-decoration: none; border-bottom: 1px solid #c2c2c2; }
 p a:hover { color: #131313; text-decoration: none; border-bottom: 1px solid #131313; }
 em { font-style: italic; }
 strong { font-weight: 700; }
-small { font-family: "Source Sans Pro"; font-size: 14px; font-style: normal; font-weight: 600; line-height: 21px;}
-figcaption { color: #666; font-family: "Source Sans Pro"; font-size: 14px; font-style: normal; font-weight: 300; line-height: 18px; letter-spacing: 0.5px;}
+small { font-family: 'Source Serif Pro'; font-size: 14px; font-style: normal; font-weight: 600; line-height: 21px;}
+figcaption { color: #666; font-family: 'Source Serif Pro'; font-size: 14px; font-style: normal; font-weight: 300; line-height: 18px; letter-spacing: 0.5px;}
 img { max-width: 100%; display: block; border: 0 none; padding-bottom: 13px }
 img.lazy { display: none; }
 
