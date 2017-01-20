@@ -18,12 +18,12 @@
     font-weight: 300;
     font-style: normal;
     font-stretch: normal;
-    src: url('../fonts/EOT/SourceSerifPro-Light.eot') format('embedded-opentype'),
-         url('../fonts/WOFF/OTF/SourceSerifPro-Light.otf.woff') format('woff'),
-         url('../fonts/WOFF2/OTF/SourceSerifPro-Light.otf.woff2') format('woff2'),
-         url('../fonts/OTF/SourceSerifPro-Light.otf') format('opentype'),
-         url('../fonts/TTF/SourceSerifPro-Light.ttf') format('truetype')
-         url('../fonts/OTF/SourceSerifPro-Light.svg') format('svg'),;
+    src: url('../fonts/SourceSerifPro-Light.eot') format('embedded-opentype'),
+         url('../fonts/SourceSerifPro-Light.otf.woff') format('woff'),
+         url('../fonts/SourceSerifPro-Light.otf.woff2') format('woff2'),
+         url('../fonts/SourceSerifPro-Light.otf') format('opentype'),
+         url('../fonts/SourceSerifPro-Light.ttf') format('truetype')
+         url('../fonts/SourceSerifPro-Light.svg') format('svg'),;
 }
 
 @font-face{
@@ -43,12 +43,12 @@
     font-weight: 600;
     font-style: normal;
     font-stretch: normal;
-    src: url('../fonts/EOT/SourceSerifPro-Semibold.eot') format('embedded-opentype'),
-         url('../fonts/WOFF/OTF/SourceSerifPro-Semibold.otf.woff') format('woff'),
-         url('../fonts/WOFF2/OTF/SourceSerifPro-Semibold.otf.woff2') format('woff2'),
-         url('../fonts/OTF/SourceSerifPro-Semibold.otf') format('opentype'),
-         url('../fonts/TTF/SourceSerifPro-Semibold.ttf') format('truetype')
-         url('../fonts/OTF/SourceSerifPro-Semibold.svg') format('svg'),;
+    src: url('../fonts/SourceSerifPro-Semibold.eot') format('embedded-opentype'),
+         url('../fonts/SourceSerifPro-Semibold.otf.woff') format('woff'),
+         url('../fonts/SourceSerifPro-Semibold.otf.woff2') format('woff2'),
+         url('../fonts/SourceSerifPro-Semibold.otf') format('opentype'),
+         url('../fonts/SourceSerifPro-Semibold.ttf') format('truetype')
+         url('../fonts/SourceSerifPro-Semibold.svg') format('svg'),;
 }
 
 @font-face{
@@ -103,11 +103,12 @@
     font-weight: 300;
     font-style: normal;
     font-stretch: normal;
-    src: url('../fonts/EOT/SourceSansPro-Light.eot') format('embedded-opentype'),
-         url('../fonts/WOFF2/TTF/SourceSansPro-Light.ttf.woff2') format('woff2'),
-         url('../fonts/WOFF/OTF/SourceSansPro-Light.otf.woff') format('woff'),
-         url('../fonts/OTF/SourceSansPro-Light.otf') format('opentype'),
-         url('../fonts/TTF/SourceSansPro-Light.ttf') format('truetype');
+    src: url('../fonts/SourceSansPro-Light.eot') format('embedded-opentype'),
+         url('../fonts/SourceSansPro-Light.ttf.woff2') format('woff2'),
+         url('../fonts/SourceSansPro-Light.otf.woff') format('woff'),
+         url('../fonts/SourceSansPro-Light.otf') format('opentype'),
+         url('../fonts/SourceSansPro-Light.ttf') format('truetype')
+         url('../fonts/SourceSansPro-Light.svg') format('svg'),;
 }
 
 @font-face{
