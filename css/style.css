@@ -161,7 +161,7 @@
 		#project .control a { font-size: 18px; }
 		#project .control a.prev, #project .control a.next { padding: 20px; }
 		#project .control a.prev cite, #project .control a.next cite { display: none; }
-		#project .project img { padding-bottom: 10px; width: 100%; height: auto; }
+		#project .project img { padding-bottom: 0px; width: 100%; height: auto; }
 		#project h1 { font-size: 27px; line-height: 39px }
 		#project h2 { font-size: 27px; line-height: 39px }
 
