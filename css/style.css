@@ -76,7 +76,7 @@
 	#project .control a.next { padding-right: 16px; float: right; background: url(../images/next-icon.svg) right no-repeat; background-size: 10px 16px; }
 	#project .control a.view { margin-left: -28px; position: absolute; left: 50%; top: 28px; font-size: 0px; display: block; width: 56px; height: 56px; background: url(../images/project-icon1.svg) center no-repeat; background-size: 56px; }
 	#project .control a.view:hover { background-image: url(../images/project-icon1hvr.svg); }
-	#project .project figure { padding-bottom: 52px; }
+	#project .project figure { padding-bottom: 104px; }
 	#project .project figcaption { font-size: 14px; max-width: 352px; line-height: 18px; }
 	#project .project figure:last-child { padding-bottom: 0px; }
 	#project .link a { padding: 78px 26px; width: 100%; line-height: 52px; float: left; display: block; text-align: center; color: #fff; font-family: 'Source Serif Pro'; font-size: 18px; font-style: normal; font-weight: 600; background: #131313; }
