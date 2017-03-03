@@ -1,0 +1,204 @@
+body {
+  background: #fff;
+  color: #131313;
+  font-family: "Source Serif Pro", Georgia, serif;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Typography */
+h1 {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 52px;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 52px;
+  margin-bottom:26px;
+  margin-top: 0;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h4 {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 21px;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 26px;
+  margin-top: 0;
+  margin-bottom: 26px;
+}
+
+figure {
+  margin: 0;
+}
+
+figcaption {
+  color: #666;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 18px;
+  letter-spacing: 0.5px;
+}
+
+
+/* Lists */
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+
+li {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 39px;
+  list-style: none;
+  margin: 0;
+}
+
+ul li a {
+  border-bottom: 1px solid #c2c2c2;
+  color: #131313;
+  line-height: normal;
+  text-decoration: none;
+}
+
+ul li a:hover, ul li.active a {
+  border-bottom: 1px solid #131313;
+  color: #131313;
+  text-decoration: none;
+}
+
+
+/* Interaction */
+a {
+  color: #131313;
+  line-height: normal;
+  text-decoration: none;
+}
+
+a:hover {
+  border-bottom: 1px solid #c2c2c2;
+  color: #131313;
+  text-decoration: none;
+}
+
+.button {
+  background-color: #131313;
+  border-bottom: none;
+  color: white;
+  cursor: pointer;
+  display: block;
+  margin-bottom: 26px;
+  padding-top: 52px;
+  padding-bottom: 52px;
+  padding-left: 26px;
+  padding-right: 26px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: #252525;
+  border-bottom: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+p a {
+  color: #131313;
+  text-decoration: none;
+  border-bottom: 1px solid #c2c2c2;
+}
+
+p a:hover {
+  color: #131313;
+  text-decoration: none;
+  border-bottom: 1px solid #131313;
+}
+
+
+/* Layout */
+
+.boarder-above {
+  border-top: 1px solid #c2c2c2;
+  padding-bottom: 26px
+}
+
+.caption {
+  margin: 0;
+  padding-top: 13px;
+  max-width: 400px;
+}
+
+.footer-item {
+  float: none;
+  width: 100%;
+}
+
+.footer-title {
+  margin-bottom: 26px;
+}
+
+.image {
+  border: 26px solid #c2c2c2;
+}
+
+img {
+  width: 100%;
+  display:block;
+}
+
+.page-title {
+  margin-top: 52px;
+}
+
+.button-group {
+  display: block;
+}
+
+.no-padding-top {
+  padding-top: 0;
+}
+
+.section {
+  margin-bottom: 104px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1172px;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: relative;
+
+}
+
+.section-title {
+  margin-bottom: 52px;
+}
+
+.white {
+color: #fff;
+}
+
+.black {
+color: #131313;
+}
