@@ -2,7 +2,8 @@ html, body {
   background: #fff;
   color: #131313;
   font-family: "Source Serif Pro", Georgia, serif;
-  font-style: normal;
+  font-size: 18px;
+  font-weight: 300;
   height: 100%;
   margin: 0;
   padding: 0;
@@ -23,7 +24,6 @@ h2 {
   font-weight: 300;
   line-height: 52px;
   margin: 0;
-  margin-bottom:26px;
 }
 
 h3 {
@@ -31,7 +31,6 @@ h3 {
   font-weight: 600;
   line-height: 26px;
   margin: 0;
-  margin-bottom: 0;
 }
 
 h4 {
@@ -46,7 +45,7 @@ p {
   font-weight: 300;
   line-height: 26px;
   margin: 0;
-  margin-bottom: 26px;
+  padding-bottom: 26px;
 }
 
 figure {
@@ -59,6 +58,51 @@ figcaption {
   font-weight: 300;
   line-height: 18px;
   letter-spacing: 0.5px;
+}
+
+
+/* Elements */
+
+footer {
+  margin-bottom: 104px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1120px;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: relative;
+}
+
+header {
+  margin-bottom: 104px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 52px;
+  max-width: 1120px;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: relative;
+}
+
+hgroup {
+  
+}
+
+img {
+  background-size: contain;
+  width: 100%;
+  display:block;
+  height: auto;
+}
+
+section {
+  margin-bottom: 104px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1120px;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: relative;
 }
 
 
@@ -163,10 +207,25 @@ p a:hover {
 
 
 /* Layout */
+.baselinex1 {
+  padding-bottom: 26px;
+}
+
+.baselinex2 {
+  padding-bottom: 52px;
+}
+
+.baselinex4 {
+  padding-bottom: 104px;
+}
 
 .border-above {
   border-top: 1px solid #c2c2c2;
-  padding-bottom: 26px
+  padding-top: 26px
+}
+
+.button-group {
+  display: block;
 }
 
 .caption {
@@ -205,7 +264,7 @@ p a:hover {
 }
 
 .footer-title {
-  margin-bottom: 26px;
+  padding-bottom: 26px;
 }
 
 .image {
@@ -216,65 +275,20 @@ p a:hover {
   margin-bottom: 76px;
 }
 
-img {
-  background-size: contain;
-  width: 100%;
-  display:block;
-  height: auto;
-}
-
 .padding-bottom {
   padding-bottom: 26px;
-}
-
-.page-title {
-  margin-top: 52px;
-}
-
-.button-group {
-  display: block;
-}
-
-.baselinex1 {
-  padding-bottom: 26px;
-}
-
-.baselinex2 {
-  padding-bottom: 52px;
 }
 
 .list-block {
   margin-bottom: 0;
 }
 
-.no-margin-bottom {
-  margin-bottom: 0;
+.no-padding-bottom {
+  padding-bottom: 0;
 }
 
 .no-padding-top {
   padding-top: 0;
-}
-
-.section {
-  margin-bottom: 104px;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 1120px;
-  padding-left: 20px;
-  padding-right: 20px;
-  position: relative;
-
-}
-
-.section-home-2 {
-  margin-bottom: 26px;
-  padding-top: 52px;
-  padding-bottom: 52px;
-  padding-left: 26px;
-  padding-right: 26px;
-  background-color: #fff;
-  text-decoration: none;
-  width: 100%;
 }
 
 .section-title {
@@ -287,7 +301,6 @@ img {
 
 
 /* Colour */
-
 .black {
   color: #131313;
 }
@@ -302,7 +315,6 @@ img {
 
 
 /* Media */
-
 /*@media all and (min-width: 600px) {
   .flex-wrapper {
     flex: 1 auto;
