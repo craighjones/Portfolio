@@ -2,8 +2,6 @@ html, body {
   background: #fff;
   color: #131313;
   font-family: "Source Serif Pro", Georgia, serif;
-  font-size: 18px;
-  font-weight: 300;
   height: 100%;
   margin: 0;
   padding: 0;
@@ -12,17 +10,18 @@ html, body {
 
 
 /* Typography */
+
 h1 {
-  font-size: 36px;
+  font-size: 27px;
   font-weight: 600;
-  line-height: 52px;
-  margin: 0;
+  line-height: 39px;
+    margin: 0;
 }
 
 h2 {
-  font-size: 36px;
+  font-size: 27px;
   font-weight: 300;
-  line-height: 52px;
+  line-height: 39px;
   margin: 0;
 }
 
@@ -58,7 +57,17 @@ figcaption {
   font-weight: 300;
   line-height: 18px;
   letter-spacing: 0.5px;
+  padding-top: 13px;
+  margin: 0;
+  max-width: 400px;
 }
+
+/*.large {
+  font-size: 54px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 52px;
+}*/
 
 
 /* Elements */
@@ -85,7 +94,6 @@ header {
 }
 
 hgroup {
-  
 }
 
 img {
@@ -107,6 +115,7 @@ section {
 
 
 /* Lists */
+
 ul {
   margin: 0;
   padding: 0;
@@ -124,7 +133,6 @@ li {
 ul li a:link {
   border-bottom: 1px solid #c2c2c2;
   color: #131313;
-  line-height: normal;
   text-decoration: none;
 }
 
@@ -145,26 +153,6 @@ ul li.active a {
 
 
 /* Interaction */
-a:link {
-  border-bottom: 1px solid #c2c2c2;
-  color: #131313;
-  line-height: normal;
-  text-decoration: none;
-}
-
-/*a:visited {
-color: purple;
-}*/
-
-a:hover {
-  border-bottom: 2px solid #131313;
-  text-decoration: none;
-}
-
-a:active {
-  color: #fff;
-  text-decoration: none;
-}
 
 a.button {
   background-color: #131313;
@@ -172,7 +160,6 @@ a.button {
   color: white;
   cursor: pointer;
   display: block;
-  font-weight: 600;
   margin-bottom: 26px;
   padding-top: 52px;
   padding-bottom: 52px;
@@ -193,7 +180,25 @@ a.button:active {
   text-decoration: none;
 }
 
-p a {
+a.button-home-black {
+  color: #131313;
+  cursor: pointer;
+  padding-bottom: 52px;
+  padding-top: 52px;
+  padding-left: 52px;
+  padding-right: 52px;
+  text-decoration: none;
+}
+
+.flex-1:hover {
+  background: #c2c2c2;
+}
+
+.flex-2:hover {
+  background: #c2c2c2;
+}
+
+p a:link {
   border-bottom: 1px solid #c2c2c2;
   color: #131313;
   text-decoration: none;
@@ -207,6 +212,7 @@ p a:hover {
 
 
 /* Layout */
+
 .baselinex1 {
   padding-bottom: 26px;
 }
@@ -228,19 +234,24 @@ p a:hover {
   display: block;
 }
 
-.caption {
-  margin: 0;
-  padding-top: 13px;
-  max-width: 400px;
+.flex {
+  background: #fff;
+  border: 1px solid #c2c2c2;
+  transition: all 0.3s ease 0s;
 }
 
 .flex-1 {
-  background: #000;
+  border-bottom: none;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
   order: 1;
 }
 
 .flex-2 {
-  background: #fff;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
   order: 2;
 }
 
@@ -292,7 +303,7 @@ p a:hover {
 }
 
 .section-title {
-  margin-bottom: 26px;
+  /*margin-bottom: 26px;*/
 }
 
 .text-block {
@@ -301,6 +312,7 @@ p a:hover {
 
 
 /* Colour */
+
 .black {
   color: #131313;
 }
@@ -315,9 +327,68 @@ p a:hover {
 
 
 /* Media */
-/*@media all and (min-width: 600px) {
+
+@media all and (min-width: 800px) {
+
+  footer {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  header {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  h1 {
+    font-size: 36px;
+    line-height: 52px;
+    margin: 0;
+  }
+
+  h2 {
+    font-size: 36px;
+    line-height: 52px;
+    margin: 0;
+  }
+
+  .flex {
+    background: #fff;
+    border: 1px solid #c2c2c2;
+  }
+
+  .flex-1 {
+    border-right: none;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    margin-right: 0px;
+    margin-top: 40px;
+    order: 1;
+
+  }
+
+  .flex-2 {
+    margin-bottom: 40px;
+    margin-right: 40px;
+    margin-left: 0px;
+    margin-top: 40px;
+    order: 2;
+  }
+
   .flex-wrapper {
     flex: 1 auto;
     flex-direction: row;
     justify-content: center;
-  }*/
+  }
+
+  .large {
+    font-size: 54px;
+    letter-spacing: 1px;
+    line-height: 52px;
+  }
+
+  section {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
