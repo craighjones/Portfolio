@@ -8,26 +8,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/png" href="images/16x16.png" sizes="16x16">
   <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/grid.css">
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 
   <div class="main">
 
-    <header>
-      <hgroup>
+    <header class="grid">
+      <hgroup class="col lg-4 md-4 sm-12">
         <h1>Craig Jones</h1>
         <h2>Design director</h2>
       </hgroup>
     </header>
 
-    <section>
-      <div class="section-title">
-        <h2 class="border-above">About</h2>
+    <section class="grid">
+      <div class="border-above">
       </div>
-      <div class="text-block">
+      <div class="col lg-4 md-4 sm-12 section-title">
+        <h2>About</h2>
+      </div>
+      <div class="col lg-6 md-6 sm-12">
         <p>An experienced lead designer with extensive knowledge of designing and delivering products for internationally renowned brands including Honda, Tesco, BT and Vitsoe.</p>
-        <p class="baselinex1">In my spare time I can be found on my mountain bike. In 2014 I co-founded <a href="https://www.theguardian.com/travel/2016/may/14/mountain-bike-day-tour-shropshire-hills" target="_blank">Muddy Cwtch</a>, providing Mountain Bike rides for small groups and individuals complete with nutritional support in the south Shropshire hills for riders of all abilities.</p>
+        <p>In my spare time I can be found on my mountain bike. In 2014 I co-founded <a href="https://www.theguardian.com/travel/2016/may/14/mountain-bike-day-tour-shropshire-hills" target="_blank">Muddy Cwtch</a>, providing Mountain Bike rides for small groups and individuals complete with nutritional support in the south Shropshire hills for riders of all abilities.</p>
         <h3>Selected agencies</h3>
         <p>Critical Mass, DigitasLBi, Futurebrand, Razorfish and R/GA</p>
         <h3>Selected clients</h3>
@@ -35,15 +38,17 @@
         <h3>Skills</h3>
         <p>Art Direction, Clear scamps, HTML and CSS, UI Design and UX Design</p>
         <h3>Toolset</h3>
-        <p>Illustrator, InDesign, Invision, Keynote, Marvel, Photoshop and Sketch</p>
+        <p class="baselinex0">Illustrator, InDesign, Invision, Keynote, Marvel, Photoshop and Sketch</p>
       </div>
     </section>
 
-    <footer>
-      <div class="border-above footer-title">
+    <footer class="grid">
+      <div class="border-above">
+      </div>
+      <div class="col lg-4 md-4 sm-12 footer-title">
         <h3>Craig Jones</h3>
       </div>
-      <div class="footer-item">
+      <div class="col lg-4 md-4 sm-12 footer-item">
         <ul>
           <li><a href="about.html">About</a></li>
           <li><a href="vitsoe.html">Projects</a></li>
@@ -51,7 +56,7 @@
           <li><a href="craighjones-cv.html">Curriculum vitae</a></li>
         </ul>
       </div>
-      <div class="baselinex4 footer-item">
+      <div class="col lg-4 md-4 sm-12 footer-item">
         <ul>
           <li><a href="tel:+447582304804">+44 (0) 7582304804</a></li>
           <li><a href="mailto:craighjones@gmail.com">craighjones@gmail.com</a></li>
@@ -59,10 +64,13 @@
           <li><a href="https://github.com/craighjones/Portfolio">GitHub</a></li>
         </ul>
       </div>
-      <div class="border-above copyright grey">
-        <p>© 2017 craighjones</p>
-      </div>
     </footer>
+
+    <section class="grid">
+      <div class="border-above copyright">
+        <p class="grey">© 2017 craighjones</p>
+      </div>
+    </section>
 
   </div>
 
