@@ -2,6 +2,8 @@ html, body {
   background: #f6f6f6;
   color: #131313;
   font-family: "Source Serif Pro", Georgia, serif;
+  font-size: 18px;
+  font-weight: 300;
   height: 100%;
   margin: 0;
   padding: 0;
@@ -57,11 +59,18 @@ figcaption {
   margin: 0;
 }
 
-.large {
+.large-type {
   font-size: 27px;
   font-weight: 600;
   letter-spacing: 1px;
   line-height: 39px;
+}
+
+.small-type {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 26px;
+  margin: 0;
 }
 
 
@@ -70,7 +79,6 @@ figcaption {
 figure {
   clear: both;
   margin: 0;
-  /*margin-bottom: 52px;*/
 }
 
 footer {
@@ -111,36 +119,28 @@ section {
 ul {
   margin: 0;
   padding: 0;
+  list-style: none;
 }
 
 
 li {
-  font-size: 18px;
-  font-weight: 300;
-  list-style: none;
-  margin: 0;
   padding-bottom: 13px;
+  margin: 0;
 }
 
-ul li a:link {
+ul li a {
   border-bottom: 1px solid #c2c2c2;
   color: #131313;
+  cursor: pointer;
   text-decoration: none;
 }
-
-/*ul li a:visited {
-color: purple;
-text-decoration: none;
-}*/
 
 ul li a:hover {
   border-bottom: 2px solid #131313;
-  color: #131313;
-  text-decoration: none;
 }
 
-ul li.active a {
-  color: #131313;
+ul li a.active {
+  border-bottom: 4px solid #131313;
 }
 
 nav {
@@ -149,35 +149,6 @@ nav {
 
 
 /* Interaction */
-
-a.button {
-  border: 1px solid #c2c2c2;
-  color: black;
-  cursor: pointer;
-  display: block;
-  padding-top: 52px;
-  padding-bottom: 52px;
-  text-align: center;
-  text-decoration: none;
-}
-
-/*.button-group {
-  border: 1px solid #c2c2c2;
-}*/
-
-/*a.button:last-child {
-  border-right: 1px solid #c2c2c2;
-}*/
-
-a.button:hover {
-  background-color: #fff;
-  text-decoration: none;
-}
-
-a.button.active {
-  background-color: #fff;
-  text-decoration: none;
-}
 
 a.button-home-black {
   color: #131313;
@@ -189,27 +160,21 @@ a.button-home-black {
   text-decoration: none;
 }
 
-a.primary-link {
+.flex:hover {
+  background: #95b2a4;
+}
+
+h3 a {
   border-bottom: 1px solid #c2c2c2;
   color: #131313;
   text-decoration: none;
 }
 
-a.primary-link:hover {
+h3 a:hover {
   border-bottom: 2px solid #131313;
-  color: #131313;
-  text-decoration: none;
 }
 
-.flex-1:hover {
-  background: #fff;
-}
-
-.flex-2:hover {
-  background: #fff;
-}
-
-p a:link {
+p a {
   border-bottom: 1px solid #c2c2c2;
   color: #131313;
   text-decoration: none;
@@ -217,8 +182,6 @@ p a:link {
 
 p a:hover {
   border-bottom: 2px solid #131313;
-  color: #131313;
-  text-decoration: none;
 }
 
 
@@ -239,11 +202,6 @@ p a:hover {
 .baselinex4 {
   padding-bottom: 104px;
 }
-
-/*.border-above {
-  border-top: 1px solid #c2c2c2;
-  padding-top: 26px
-}*/
 
 .button-group {
   display: block;
@@ -268,7 +226,6 @@ p a:hover {
 }
 
 .flex {
-  /*background: #fff;*/
   border: 1px solid #c2c2c2;
   transition: all 0.3s ease 0s;
 }
@@ -382,7 +339,6 @@ p a:hover {
   }
 
   .flex {
-    /*background: #fff;*/
     border: 1px solid #c2c2c2;
   }
 
@@ -411,12 +367,20 @@ p a:hover {
   }
 
   .image {
-    padding: 60px;
+    padding: 40px;
   }
 
-  .large {
-    font-size: 54px;
-    letter-spacing: 1px;
+  .large-type {
+    font-size: 52px;
     line-height: 52px;
+    padding-bottom: 26px;
   }
+
+  /*ul.large {
+    margin: 0;
+  }*/
+
+  /*h3.large-type {
+    padding-bottom: 26px;
+  }*/
 }
