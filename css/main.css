@@ -73,6 +73,10 @@ figcaption {
   margin: 0;
 }
 
+span.light{
+  font-weight: 300;
+}
+
 
 /* Elements */
 
