@@ -154,6 +154,11 @@ nav {
 
 /* Interaction */
 
+a:focus {
+  outline-style: none;
+  outline-width: 0px;
+}
+
 a.button-home-black {
   color: #131313;
   cursor: pointer;
@@ -166,6 +171,12 @@ a.button-home-black {
 
 .flex:hover {
   background: #95b2a4;
+}
+
+.flex:focus {
+  background: #95b2a4;
+  outline-style: none;
+  outline-width: 0px;
 }
 
 h3 a {
