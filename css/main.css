@@ -1,5 +1,5 @@
 html, body {
-  background: #f6f6f6;
+  background: #f9f9f9;
   color: #131313;
   font-family: "Lato", helvetica, serif;
   font-size: 18px;
@@ -15,7 +15,7 @@ html, body {
 
 h1 {
   font-size: 27px;
-  font-weight: 600;
+  font-weight: 800;
   line-height: 39px;
   margin: 0;
 }
@@ -24,12 +24,13 @@ h2 {
   font-size: 27px;
   font-weight: 300;
   line-height: 39px;
+  padding-bottom: 26px;
   margin: 0;
 }
 
 h3 {
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 800;
   line-height: 26px;
   margin: 0;
 }
@@ -50,12 +51,16 @@ p {
 }
 
 figcaption {
-  color: #666;
-  font-size: 18px;
-  font-weight: 300;
+  font-weight: 800;
   line-height: 26px;
   padding-bottom: 104px;
-  padding-top: 26px;
+  padding-top: 13px;
+  margin: 0;
+}
+
+.large {
+  font-size: 27px;
+  line-height: 39px;
   margin: 0;
 }
 
@@ -66,6 +71,14 @@ figcaption {
   line-height: 39px;
 }
 
+.logo {
+  font-weight: 900;
+  line-height: 26px;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
 .small-type {
   font-size: 18px;
   font-weight: 300;
@@ -73,9 +86,9 @@ figcaption {
   margin: 0;
 }
 
-span.light{
+/* span.light{
   font-weight: 300;
-}
+} */
 
 
 /* Elements */
@@ -90,8 +103,7 @@ footer {
 }
 
 header {
-  margin-top: 52px;
-  margin-bottom: 104px;
+  margin-bottom: 26px;
 }
 
 hgroup {
@@ -100,8 +112,19 @@ hgroup {
 
 hr {
   border: 0;
-  border-top: 1px solid #c2c2c2;
   margin: 0;
+
+}
+
+.thin {
+  border: 0;
+  border-top: 1px solid #c2c2c2;
+  padding-top: 26px;
+}
+
+.thick {
+  border: 0;
+  border-top: 13px solid #c2c2c2;
   padding-top: 26px;
 }
 
@@ -113,7 +136,7 @@ img {
 }
 
 section {
-  margin-bottom: 104px;
+  margin-bottom: 78px;
 }
 
 
@@ -132,9 +155,10 @@ li {
 }
 
 ul li a {
-  border-bottom: 1px solid #c2c2c2;
+  border-bottom: 1px solid #131313;
   color: #131313;
   cursor: pointer;
+  /* font-weight: 800; */
   text-decoration: none;
 }
 
@@ -143,15 +167,34 @@ ul li a:hover {
 }
 
 ul li a.active {
-  border-bottom: 4px solid #131313;
+  border-bottom: 2px solid #131313;
+}
+
+.navigation {
+  margin: 0;
+  padding: 0 0 26px 0;
+  list-style: none;
+}
+
+.navigation-items {
+  display: inline;
+  padding-bottom: 13px;
+  margin: 0;
+  padding-right: 20px;
 }
 
 nav {
-  margin-bottom: 104px;
+  margin-top: 26px;
+  margin-bottom: 26px;
 }
 
 
 /* Interaction */
+
+.active a {
+    /* font-weight: 800; */
+    border-bottom: 2px solid #131313;
+}
 
 a:focus {
   outline-style: none;
@@ -178,6 +221,11 @@ a.button-home-black {
   outline-width: 0px;
 }
 
+h1 a{
+  text-decoration: none;
+  color: #131313;
+}
+
 h3 a {
   border-bottom: 1px solid #c2c2c2;
   color: #131313;
@@ -186,6 +234,10 @@ h3 a {
 
 h3 a:hover {
   border-bottom: 2px solid #131313;
+}
+
+.logo a {
+  text-decoration: none;
 }
 
 p a {
@@ -203,6 +255,10 @@ p a:hover {
 
 .baselinex0 {
   padding-bottom: 0px;
+}
+
+.baselinex05 {
+  padding-bottom: 13px;
 }
 
 .baselinex1 {
@@ -274,8 +330,7 @@ p a:hover {
 }
 
 .footer-item {
-  float: none;
-  width: 100%;
+  float: right;
 }
 
 .footer-title {
@@ -317,7 +372,7 @@ p a:hover {
 }
 
 .text-block {
-  margin-bottom: 26px
+  margin-bottom: 78px
 }
 
 
@@ -343,13 +398,11 @@ p a:hover {
   h1 {
     font-size: 36px;
     line-height: 52px;
-    margin: 0;
   }
 
   h2 {
     font-size: 36px;
     line-height: 52px;
-    margin: 0;
   }
 
   .flex {
@@ -384,10 +437,43 @@ p a:hover {
     padding: 40px;
   }
 
+  .large {
+    font-size: 36px;
+    line-height: 52px;
+    margin: 0;
+  }
+
+  .large-type-thick {
+font-weight: 800;
+    font-size: 36px;
+    line-height: 52px;
+    margin: 0;
+  }
+
   .large-type {
     font-size: 52px;
     line-height: 52px;
     padding-bottom: 26px;
+  }
+
+  .xlarge-type-thick {
+    font-weight: 800;
+    font-size: 52px;
+    line-height: 65px;
+    padding-bottom: 52px;
+  }
+
+  .navigation {
+    margin: 0;
+    padding: 0 0 26px 0;
+    list-style: none;
+  }
+
+  .horizontal-list {
+    padding-bottom: 13px;
+    margin: 0;
+    display: inline;
+    padding-right: 15px;
   }
 
   /*ul.large {
