@@ -87,6 +87,14 @@ figcaption {
   margin: 0;
 }
 
+.small-type-bold {
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 26px;
+  margin: 0;
+  padding-bottom: 26px;
+}
+
 /* span.light{
   font-weight: 300;
 } */
