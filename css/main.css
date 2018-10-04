@@ -164,10 +164,9 @@ li {
 }
 
 ul li a {
-  border-bottom: 1px solid #131313;
+  border-bottom: 1px solid #c2c2c2;
   color: #131313;
   cursor: pointer;
-  /* font-weight: 800; */
   text-decoration: none;
 }
 
@@ -233,6 +232,16 @@ a.button-home-black {
 h1 a{
   text-decoration: none;
   color: #131313;
+}
+
+h2 a {
+  border-bottom: 1px solid #c2c2c2;
+  color: #131313;
+  text-decoration: none;
+}
+
+h2 a:hover {
+  border-bottom: 2px solid #131313;
 }
 
 h3 a {
