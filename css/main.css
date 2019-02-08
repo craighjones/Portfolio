@@ -229,6 +229,17 @@ a.button-home-black {
   outline-width: 0px;
 }
 
+.button {
+    background-color: #131313;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+}
+
 h1 a{
   text-decoration: none;
   color: #131313;
