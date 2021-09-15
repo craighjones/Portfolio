@@ -74,6 +74,13 @@ figcaption {
   line-height: 39px;
 }
 
+.large-type-thick {
+  font-weight: 800;
+/*  font-size: 36px;
+  line-height: 52px;*/
+  margin: 0;
+}
+
 .logo {
   font-weight: 900;
   line-height: 26px;
@@ -166,11 +173,17 @@ section {
   list-style-type: disc;
 }
 
-.list ul {
+ul.list {
   margin: 0;
-  padding: 0;
+  padding-bottom: 13px;
   padding-left: 20px;
   list-style-type: disc;
+}
+
+ul.nav-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 
 .list-spaced li {
@@ -467,7 +480,7 @@ p a:hover {
   }
 
   .large-type-thick {
-font-weight: 800;
+    font-weight: 800;
     font-size: 36px;
     line-height: 52px;
     margin: 0;
