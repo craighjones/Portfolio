@@ -268,3 +268,10 @@
     font-weight: normal;
     text-rendering: optimizeLegibility;
 }
+
+/* Webfont: karla */
+@font-face {
+  font-family: "karla";
+  src: url("/fonts/Karla-VariableFont_wght.ttf") format("ttf"),
+       url("/fonts/Karla-Italic-VariableFont_wght.ttf") format("ttf");
+}
