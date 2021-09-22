@@ -17,7 +17,7 @@ html, body {
 
 h1 {
   font-size: 27px;
-  font-weight: 800;
+  font-weight: 700;
   line-height: 39px;
   margin: 0;
 }
@@ -32,7 +32,7 @@ h2 {
 
 h3 {
   font-size: 18px;
-  font-weight: 800;
+  font-weight: 700;
   line-height: 26px;
   margin: 0;
   padding-bottom: 26px;
@@ -41,20 +41,20 @@ h3 {
 h4 {
   font-size: 18px;
   font-weight: 300;
+  font-style: italic;
   line-height: 26px;
   margin: 0;
 }
 
 p {
   font-size: 18px;
-  /*font-weight: 400;*/
   line-height: 26px;
   margin: 0;
   padding-bottom: 26px;
 }
 
 figcaption {
-  font-weight: 800;
+  font-weight: 700;
   line-height: 26px;
   padding-bottom: 104px;
   padding-top: 13px;
@@ -69,20 +69,20 @@ figcaption {
 
 .large-type {
   font-size: 27px;
-  font-weight: 600;
+  font-weight: 700;
   letter-spacing: 1px;
   line-height: 39px;
 }
 
 .large-type-thick {
-  font-weight: 800;
+  font-weight: 700;
 /*  font-size: 36px;
   line-height: 52px;*/
   margin: 0;
 }
 
 .logo {
-  font-weight: 900;
+  font-weight: 700;
   line-height: 26px;
   padding: 0;
   margin: 0;
@@ -98,7 +98,7 @@ figcaption {
 
 .small-type-bold {
   font-size: 18px;
-  font-weight: 800;
+  font-weight: 700;
   line-height: 26px;
   margin: 0;
   padding-bottom: 26px;
@@ -110,7 +110,7 @@ figcaption {
 
 .name {
   font-size: 18px;
-  font-weight: 800;
+  font-weight: 700;
   line-height: 26px;
   margin: 0;
 }
@@ -273,6 +273,7 @@ nav {
     display: inline-block;
     cursor: pointer;
     width: 100%;
+    font: inherit;
   /*  -webkit-box-shadow: 0 2px 0 #c2c2c2;
     box-shadow: 0 2px 0 #c2c2c2;*/
 }
@@ -480,7 +481,7 @@ p a:hover {
   }
 
   .large-type-thick {
-    font-weight: 800;
+    font-weight: 700;
     font-size: 36px;
     line-height: 52px;
     margin: 0;
