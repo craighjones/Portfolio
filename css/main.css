@@ -81,6 +81,11 @@ figcaption {
   margin: 0;
 }
 
+.type-thin {
+  font-weight: 300;
+  margin: 0;
+}
+
 .logo {
   font-weight: 700;
   line-height: 26px;
