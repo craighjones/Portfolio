@@ -1,44 +1,32 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-
-<url>
-  <loc>http://www.craighjones.co.uk/</loc>
-  <lastmod>2014-02-09T12:10:53+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-</url>
-
-<url>
-  <loc>https://www.craighjones.co.uk/curriculum-vitae.html</loc>
-  <lastmod>2016-02-10T12:10:53+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-</url>
-
-<url>
-  <loc>http://www.craighjones.co.uk/vitsoe.html</loc>
-  <lastmod>2016-02-10T12:10:53+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-</url>
-
-<url>
-  <loc>http://www.craighjones.co.uk/tesco.html</loc>
-  <lastmod>2016-02-10T12:10:53+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-</url>
-
-<url>
-  <loc>http://www.craighjones.co.uk/honda-europe.html</loc>
-  <lastmod>2016-02-10T12:10:53+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-</url>
-
-<url>
-  <loc>http://www.craighjones.co.uk/honda-car-configurator.html</loc>
-  <lastmod>2016-02-10T12:10:53+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-</url>
-
+<?xml version="1.0" encoding="utf-8"?>
+<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  <url>
+    <loc>https://craighjones.co.uk</loc>
+  </url>
+  <url>
+    <loc>https://craighjones.co.uk/curriculum-vitae.html</loc>
+  </url>
+  <url>
+    <loc>https://craighjones.co.uk/google.html</loc>
+  </url>
+  <url>
+    <loc>https://craighjones.co.uk/vitsoe.html</loc>
+  </url>
+  <url>
+    <loc>https://craighjones.co.uk/tesco.html</loc>
+  </url>
+  <url>
+    <loc>https://craighjones.co.uk/honda-europe.html</loc>
+  </url>
+  <url>
+    <loc>https://craighjones.co.uk/index.html</loc>
+  </url>
+  <url>
+    <loc>https://craighjones.co.uk/cv/Griffin-Jones.pdf</loc>
+  </url>
+  <url>
+    <loc>https://craighjones.co.uk/honda-car-configurator.html</loc>
+  </url>
 </urlset>
+<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
